@@ -121,6 +121,8 @@ Think very carefully about how you will do this and how you can test every step.
 
 This activity may be quite difficult but serializing JSON to strings and parse JSON from strings is very important.
 
+Once you are able to parse the cookie values into an array, iterate through the values and display them on the page in a list.
+
 Extension - Exercise 7 &ndash; Cookie Hit Counter
 =============== 
 
