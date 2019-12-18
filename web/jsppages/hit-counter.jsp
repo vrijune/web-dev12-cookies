@@ -5,7 +5,7 @@
 <html lang="en">
     <head>
         <title>Hit Counter</title>
-        <link rel="stylesheet" href="<c:url value="/assets/site.css">">
+        <link rel="stylesheet" href="<c:url value="/assets/site.css"/>">
     </head>
     <body>
         <header>

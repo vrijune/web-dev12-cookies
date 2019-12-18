@@ -5,8 +5,8 @@
 <html lang="en">
     <head>
         <title>Cookie Creator</title>
-        <link rel="stylesheet" href="<c:url value="/assets/site.css">">
-        <script src="<c:url value="/assets/cookie-creator.js">" type="text/javascript"></script>
+        <link rel="stylesheet" href="<c:url value="/assets/site.css"/>">
+        <script src="<c:url value="/assets/cookie-creator.js"/>" type="text/javascript"></script>
     </head>
     <body>
         <header>
