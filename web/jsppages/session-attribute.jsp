@@ -5,7 +5,7 @@
 <html lang="en">
     <head>
         <title>Session Attribute</title>
-        <link rel="stylesheet" href="/assets/site.css">
+        <link rel="stylesheet" href="<c:url value="/assets/site.css">">
     </head>
     <body>
         <header>
@@ -14,7 +14,7 @@
         </header>
 
         <div class="content">
-            <form action="/session-attribute" method="get">
+            <form action="<c:url value="/session-attribute">" method="get">
                 <label>
                     Session attribute test:<br>
                     <input type="text" name="sessionAttribute" value="">

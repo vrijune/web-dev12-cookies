@@ -5,7 +5,7 @@
 <html lang="en">
     <head>
         <title>User Details</title>
-        <link rel="stylesheet" href="/assets/site.css">
+        <link rel="stylesheet" href="<c:url value="/assets/site.css">">
     </head>
     <body>
         <header>
