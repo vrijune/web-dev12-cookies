@@ -28,9 +28,9 @@ Exercise 2  &ndash; Deleting a JSESSIONID
 
 This exercise is designed to help you understand how session attributes are linked to individual users.
 
-In the web browser, go to the `Developer tools` by right-clicking and going to `inspect` or going to `options --> More Tools --> Developer Tools`. 
+In the web browser, go to the `Developer tools` by right-clicking and going to `inspect` or going to `options -> More Tools -> Developer Tools`. 
 
-Then go to the `Application` tab and find the JSESSIONID cookie by browsing to `cookies --> localhost:...`.
+Then go to the `Application` tab and find the JSESSIONID cookie by browsing to `cookies -> localhost:...`.
 
 Delete the cookie and browse back to the main page to check that session attribute is not showing.
 
