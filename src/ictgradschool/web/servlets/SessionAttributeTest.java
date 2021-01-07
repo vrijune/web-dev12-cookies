@@ -13,8 +13,9 @@ import java.io.IOException;
 public class SessionAttributeTest extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession sess = request.getSession(true);
-        sess.setAttribute("sess", sess);
+        HttpSession sess = request.getSession();
+        String sess1 = request.getParameter("sessionAttribute");
+        sess.setAttribute("sess", sess1);
 
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/index.jsp");

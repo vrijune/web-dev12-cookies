@@ -16,7 +16,8 @@
 
         <div class="content">
 
-            <form onsubmit="">
+            <form onsubmit="createAdvancedCookie()">
+
                 <label>
                     Cookie value:
                     <input type="text" id="basicCookieInput">

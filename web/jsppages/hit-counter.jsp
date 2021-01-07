@@ -6,6 +6,10 @@
     <head>
         <title>Hit Counter</title>
         <link rel="stylesheet" href="<c:url value="/assets/site.css"/>">
+        <script src="<c:url value="/assets/hitCounter.js"/>" type="text/javascript"></script>
+
+
+
     </head>
     <body>
         <header>

@@ -16,16 +16,18 @@
 </header>
 
 <div class="content">
+    <form action="/userdetails">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" value=""><br>
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" value=""><br>
+        <input type="submit" value="Submit">
+    </form>
 
-    <p>First Name:
-        ${firstName} </p>
-    <p>Last Name:
-        ${lastName} </p>
-    <p>City:
-        ${City}</p>
-    <p>Country:
-        ${Country}
-    </p>
 
 </div>
 </body>
